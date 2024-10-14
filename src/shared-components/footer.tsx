@@ -5,7 +5,7 @@ import Button from './button';
 
 export default function Footer() {
     return (
-        <Wrapper className='px-[20px] lg:px-0 flex lg:flex-row flex-col justify-between lg:py-[100px] py-[50px] lg:gap-[179px] text-[#777777]'>
+        <Wrapper className='px-[20px] flex lg:flex-row flex-col justify-between lg:py-[100px] py-[50px] lg:gap-[179px] text-[#777777]'>
             <div className='w-full max-w-[300px]'>
                 <Image src='/icon/bodo-logo.svg' alt='' width={126} height={23} />
                 <p className='lg:mt-[40px] mt-[20px] '>Social media validation business model canvas graphical user interface launch party creative facebook iPad twitter.</p>

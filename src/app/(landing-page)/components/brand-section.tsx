@@ -14,7 +14,7 @@ export default function BrandSection() {
     ]
 
     return (
-        <Wrapper className='lg:mt-[100px] mt-[50px] px-[20px] lg:px-0'>
+        <Wrapper className='lg:mt-[100px] mt-[50px] px-[20px]'>
             <section className='flex flex-col lg:flex-row gap-6 justify-between items-center px-4 relative'>
                 {featuredBrands.map((brand, index) =>
                     <div key={brand} className=''>
