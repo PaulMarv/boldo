@@ -6,7 +6,7 @@ import Button from '@/shared-components/button';
 
 export default function Blog() {
     return (
-        <Wrapper className='lg:px-[201px] lg:pb-[120px] pb-[60px] flex flex-col justify-between'>
+        <Wrapper className='lg:px-[101px] px-[20px] lg:pb-[120px] pb-[60px] flex flex-col justify-between'>
             <div className='text-center'>
                 <p className='text-[#C4C4C4] lg:text-[20px] text-[14px]'>Our Blog</p>
                 <h1 className='font-manrope lg:text-[48px] text-[28px] lg:leading-[72px]'>Value proposition accelerator product management venture</h1>

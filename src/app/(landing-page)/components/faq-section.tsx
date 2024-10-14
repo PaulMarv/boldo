@@ -6,7 +6,7 @@ import { faqs } from '@/lib/data/faqs';
 
 export default function Faq() {
   return (
-    <Wrapper className='lg:px-[150px] lg:py-[120px] py-[60px]'>
+    <Wrapper className='lg:px-[50px] lg:py-[120px] px-[20px] py-[60px]'>
       <div>
         <Image src='/images/faq-img.svg' alt='' width={4000} height={403}/>
       </div>

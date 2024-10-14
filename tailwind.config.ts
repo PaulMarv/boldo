@@ -24,14 +24,6 @@ const config: Config = {
         manrope: ['var(--font-manrope)', 'Manrope', 'sans-serif'],
       },
     },
-    container:{
-      center: true,
-      padding:{
-        DEFAULT:'50px',
-        md:'75px',
-        lg:'100px'
-      }
-    }
   },
   plugins: [],
 };

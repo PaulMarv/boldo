@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function CallToActionSection() {
     return (
-        <Wrapper className='lg:pb-[84px] pb-[42px]'>
+        <Wrapper className='lg:pb-[84px] px-[20px] lg:px-0 pb-[42px]'>
             <div className='bg-primary relative rounded-lg flex flex-col justify-center items-center text-center lg:py-[72px] py-[36px] px-[20px] overflow-clip'>
                 <div className="lg:block hidden absolute top-[-290%] right-[-50%] w-[1393px] h-[1393px] rounded-full bg-[#1C3D5B]"></div>
                 <div className='z-[10]'>

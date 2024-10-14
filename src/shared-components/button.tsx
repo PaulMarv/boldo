@@ -20,7 +20,7 @@ const Button: React.FC<ButtonProps> = ({ variant = 'fill', size = 'lg', children
     const sizes = {
         sm: 'lg:px-[20px] px-[10px] lg:h-[20px] h-[10px] lg:font-sansBold lg:text-[14px] text-[12px]',
         md: 'lg:px-[40px] px-[20px] lg:h-[40px] h-[20px] lg:sansExtraBold font-sansBold lg:text-[16px] text-[14px]',
-        lg: 'lg:px-[56px] px-[28px] lg:h-[60px] h-[40px] lg:sansExtraBold font-sansBold lg:text-[20px] text-[18px]'
+        lg: 'lg:px-[56px] px-[28px] lg:h-[60px] h-[50px] lg:sansExtraBold font-sansBold lg:text-[20px] text-[18px]'
     }
 
     const buttonClasses = cn(baseStyles, variants[variant], sizes[size], className);

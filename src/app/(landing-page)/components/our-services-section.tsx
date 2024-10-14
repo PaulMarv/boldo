@@ -7,13 +7,13 @@ import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
 
 export default function OurServicesSection() {
     return (
-        <div className='bg-primary mt-[75.6px]'>
-            <Wrapper className='lg:px-[156px] px-20 lg:py-[84px] py-[42px] flex flex-col justify-center items-center'>
-                <div className='w-full max-w-[842px] text-center'>
+        <section className='bg-primary mt-[75.6px] lg:py-[84px] py-[42px]'>
+            <Wrapper className='mt-[75.6px] lg:px-[56px] px-[20px] flex flex-col justify-center items-center'>
+                <div className='w-full lg:max-w-[842px] text-center'>
                     <p className='lg:text-[20px] text-[18px] text-[#F1F1F1]'>Our Services</p>
                     <p className='lg:leading-[72px] lg:text-[48px] text-[28px] mt-4 lg:mt-0 text-white font-manrope'>Handshake infographic mass market crowdfunding iteration.</p>
                 </div>
-                <div className='lg:mt-[68px] mt-[34px] flex flex-col lg:flex-row lg:gap-[99px] gap-[40px] justify-between text-white w-full' >
+                <div className='lg:mt-[68px] mt-[34px] flex flex-col lg:flex-row lg:gap-[99px] gap-[40px] lg:justify-between justify-center items-center text-white w-full' >
                     {features.map(feature =>
                         <div key={feature.title}>
                             <div className=''>
@@ -29,6 +29,6 @@ export default function OurServicesSection() {
                     )}
                 </div>
             </Wrapper>
-        </div>
+        </section>
     )
 }

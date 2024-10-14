@@ -6,7 +6,7 @@ import { CheckCircle, Sun, Eye } from "@phosphor-icons/react/dist/ssr";
 
 export default function InfographicsSection() {
     return (
-        <Wrapper className='lg:px-[156px] px-[20px] lg:py-[120px] py-[60px]'>
+        <Wrapper className='lg:px-[56px] px-[20px] lg:py-[120px] py-[60px]'>
             <div className='flex justify-between items-center lg:flex-row flex-col lg:gap-[150px] '>
                 <div className='relative'>
                     <div>
