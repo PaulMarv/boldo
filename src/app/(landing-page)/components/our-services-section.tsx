@@ -8,25 +8,27 @@ import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
 export default function OurServicesSection() {
     return (
         <section className='bg-primary mt-[75.6px] lg:py-[84px] py-[42px]'>
-            <Wrapper className='mt-[75.6px] lg:px-[56px] px-[20px] flex flex-col justify-center items-center'>
-                <div className='w-full lg:max-w-[842px] text-center'>
-                    <p className='lg:text-[20px] text-[18px] text-[#F1F1F1]'>Our Services</p>
-                    <p className='lg:leading-[72px] lg:text-[48px] text-[28px] mt-4 lg:mt-0 text-white font-manrope'>Handshake infographic mass market crowdfunding iteration.</p>
-                </div>
-                <div className='lg:mt-[68px] mt-[34px] flex flex-col lg:flex-row lg:gap-[99px] gap-[40px] lg:justify-between justify-center items-center text-white w-full' >
-                    {features.map(feature =>
-                        <div key={feature.title}>
-                            <div className=''>
-                                <Image src={feature.imageURL} width={300} height={354} alt='' />
-                            </div>
-                            <h5 className='lg:text-[24px] text-[18px] lg:mt-[24px] mt-[12px]'>{feature.title}</h5>
-                            <div className='inline-block'>
-                                <Link href={feature.link} className='font-sansBold lg:text-[20px] text-[16px] lg:mt-[28px] mt-[10px] flex items-center gap-2'><span>Explore page</span><span><ArrowRight size={20} weight="bold" /></span> </Link>
-                                <hr className='lg:mt-2 mt-1' />
-                            </div>
+            <Wrapper>
+                <div className='mt-[75.6px] lg:px-[156px] px-[20px] flex flex-col justify-center items-center'>
+                    <div className='w-full lg:max-w-[842px] text-center'>
+                        <p className='lg:text-[20px] text-[18px] text-[#F1F1F1]'>Our Services</p>
+                        <p className='lg:leading-[72px] lg:text-[48px] text-[28px] mt-4 lg:mt-0 text-white font-manrope'>Handshake infographic mass market crowdfunding iteration.</p>
+                    </div>
+                    <div className='lg:mt-[68px] mt-[34px] flex flex-col lg:flex-row lg:gap-[99px] gap-[40px] lg:justify-between justify-center items-center text-white w-full' >
+                        {features.map(feature =>
+                            <div key={feature.title}>
+                                <div className=''>
+                                    <Image src={feature.imageURL} width={300} height={354} alt='' />
+                                </div>
+                                <h5 className='lg:text-[24px] text-[18px] lg:mt-[24px] mt-[12px]'>{feature.title}</h5>
+                                <div className='inline-block'>
+                                    <Link href={feature.link} className='font-sansBold lg:text-[20px] text-[16px] lg:mt-[28px] mt-[10px] flex items-center gap-2'><span>Explore page</span><span><ArrowRight size={20} weight="bold" /></span> </Link>
+                                    <hr className='lg:mt-2 mt-1' />
+                                </div>
 
-                        </div>
-                    )}
+                            </div>
+                        )}
+                    </div>
                 </div>
             </Wrapper>
         </section>
