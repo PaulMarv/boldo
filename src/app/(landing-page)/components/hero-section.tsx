@@ -6,7 +6,7 @@ import Wrapper from '@/shared-components/wrapper'
 export default function HeroSection() {
     return (
         <section className='relative overflow-clip'>
-            <div className="hidden lg:block absolute top-[-160%] right-[-54%] w-[100vw] aspect-square rounded-full bg-[#F1F1F1]"></div>
+            <div className="hidden lg:block absolute top-[-160%] right-[-56%] w-[100vw] aspect-square rounded-full bg-[#F1F1F1]"></div>
             <Wrapper className='px-[20px] lg:px-0 lg:pt-[144px] pt-[100px]'>
                 <div className='z-[10] flex lg:flex-row flex-col items-center justify-between'>
                     <div className='w-full lg:max-w-[601px]'>
