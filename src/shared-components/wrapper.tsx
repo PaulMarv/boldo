@@ -8,7 +8,7 @@ interface WrapperProps {
 
 // Wrapper component
 const Wrapper: React.FC<WrapperProps> = ({ children, className }) => {
-  const defaultStyles = 'mx-auto max-w-[1440px]';
+  const defaultStyles = 'mx-auto max-w-[1400px] w-full';
   const wrapperClasses = cn(defaultStyles, className);
 
   return <div className={wrapperClasses}>{children}</div>;
