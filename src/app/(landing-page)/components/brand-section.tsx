@@ -14,8 +14,8 @@ export default function BrandSection() {
     ]
 
     return (
-        <Wrapper className='mt-[100px]'>
-            <section className='flex justify-between items-center px-4 relative'>
+        <Wrapper className='lg:mt-[100px] mt-[50px]'>
+            <section className='flex flex-col lg:flex-row gap-6 justify-between items-center px-4 relative'>
                 {featuredBrands.map((brand, index) =>
                     <div key={brand} className=''>
                         <Image alt='' src={brand} height={41.8} width={index === 4 || index === 5 ? 105 : 146}  />

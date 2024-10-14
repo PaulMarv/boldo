@@ -6,28 +6,28 @@ import Image from 'next/image';
 
 export default function TestimonialSection() {
     return (
-        <Wrapper className='px-[150px] py-[100px] bg-primary mt-[150px]'>
+        <Wrapper className='lg:px-[150px] px-[20px] lg:py-[100px] py-[50px] bg-primary lg:mt-[150px]'>
             <div className='flex lg:flex-row lg:items-end justify-between flex-col'>
-                <h1 className='text-[48px] text-white font-manrope leading-[72px] max-w-[716px]'>
+                <h1 className='lg:text-[48px] text-[28px] text-white font-manrope lg:leading-[72px] lg:max-w-[716px]'>
                     An enterprise template to ramp up your company website
                 </h1>
-                <div className='gap-3 flex' >
-                    <span className='rounded-full bg-white flex items-center justify-center h-[72px] w-[72px]'>
+                <div className='hidden gap-3 lg:flex lg:mt-0 mt-5 justify-center lg:justify-start' >
+                    <span className='rounded-full bg-white flex items-center justify-center lg:h-[72px] w-[36px] lg:w-[72px] h-[36px]'>
                         <ArrowRight size={24} weight='bold' />
                     </span>
-                    <span className='rounded-full bg-white flex items-center justify-center h-[72px] w-[72px]'>
+                    <span className='rounded-full bg-white flex items-center justify-center lg:h-[72px] w-[36px] lg:w-[72px] h-[36px]'>
                         <ArrowLeft size={24} weight='bold' />
                     </span>
                 </div>
             </div>
-            <div className='mt-[74px] grid grid-cols-1 lg:grid-cols-3 justify-between gap-[50px]'>
+            <div className='lg:mt-[74px] mt-[37px] grid grid-cols-1 lg:grid-cols-3 lg:justify-between justify-items-center lg:gap-[50px] gap-6'>
                 {testimonial.map(testimony =>
                     // testimonial card
                     <div key={testimony.name} className='p-[40px] w-full max-w-[350px] rounded-lg bg-white h-fit'>
-                        <h1 className='text-[24px] leading-[36px]'>
+                        <h1 className='lg:text-[24px] text-[20px] lg:leading-[36px]'>
                             {testimony.text}
                         </h1>
-                        <div className='mt-[40px] flex items-center gap-[16px]'>
+                        <div className='lg:mt-[40px] mt-[20px] flex items-center gap-[16px]'>
                             <div>
                                 <Image src={testimony.imageURL} alt='' height={58} width={58} />
                             </div>

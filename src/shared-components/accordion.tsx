@@ -27,9 +27,9 @@ export default function FAQAccordion({ faqs }: FAQAccordionProps) {
                         onClick={() => toggleAccordion(index)}
                         className="w-full text-left py-3 flex justify-between items-center gap-8"
                     >
-                        <h3 className="text-[20px]">{faq.question}</h3>
-                        <span className='bg-primary text-white flex items-center justify-center rounded-full h-[28px] w-[28px]'>
-                        <CaretDown size={22} weight="bold" />
+                        <h3 className="lg:text-[20px] text-[16px] gap-2">{faq.question}</h3>
+                        <span className='bg-primary text-white flex items-center justify-center rounded-full lg:h-[28px] h-[24px] lg:w-[28px] w-[24px]'>
+                        <CaretDown size={20} weight="bold" />
                         </span>
                     </button>
 
