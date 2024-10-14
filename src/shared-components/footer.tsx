@@ -1,6 +1,7 @@
 import React from 'react'
 import Wrapper from './wrapper';
 import Image from 'next/image';
+import Button from './button';
 
 export default function Footer() {
   return (
@@ -24,7 +25,7 @@ export default function Footer() {
             <h5 className='font-sansBold text-primary'>Company</h5>
             <div className='flex flex-col gap-6 mt-7'>
                 <span>Home</span>
-                <span>Career</span>
+                <span className='flex gap-2 items-center'><span>Career</span><Button size='sm' className='text-primary bg-[#65E4A3] px-3 py-4'>Hiring!</Button></span>
                 <span>Services</span>
             </div>
         </div>
