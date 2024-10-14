@@ -8,7 +8,7 @@ export default function InfographicsSection() {
     return (
         <Wrapper >
             <section className='lg:px-[156px] px-[20px] lg:py-[120px] py-[60px]'>
-                <div className='flex justify-between items-center lg:flex-row flex-col lg:gap-[150px] '>
+                <div className='flex justify-between  items-center lg:flex-row flex-col lg:gap-[150px] '>
                     <div className='relative'>
                         <div>
                             <Image src='/images/services-img1.svg' height={479} width={493} alt='' />

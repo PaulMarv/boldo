@@ -34,21 +34,23 @@ export default function Navbar() {
 
 
     return (
-        <nav className={`lg:px-[100px] z-[1000] flex items-center justify-center w-full fixed top-0 lg:top-[56px] bg-white lg:bg-transparent shadow-sm lg:shadow-none`}>
-            <div className={` hidden lg:flex items-center justify-between w-full ease-in-out duration-500 rounded-full ${scrolled ? 'bg-white p-3 shadow-md pl-7' : 'bg-transparent'}`}>
-                <Image
-                    src='/icon/bodo-logo.svg'
-                    height={42}
-                    width={scrolled ? 140 : 162}
-                    alt=''
-                />
-                <div className='flex items-center gap-[40px] font-sansBold'>
-                    <Link href="#">Product</Link>
-                    <Link href="#">Services</Link>
-                    <Link href="#">About</Link>
-                    <Link href="#"><Button variant='outline' size='md'>Log In</Button></Link>
+        <nav className={` z-[1000] flex items-center justify-center w-full fixed top-0 lg:top-[56px] bg-white lg:bg-transparent shadow-sm lg:shadow-none`}>
+            <Wrapper className='hidden lg:flex items-center px-[100px]'>
+                <div className={`flex items-center justify-between w-full ease-in-out duration-500 rounded-full ${scrolled ? 'bg-white p-3 shadow-md pl-7' : 'bg-transparent'}`}>
+                    <Image
+                        src='/icon/bodo-logo.svg'
+                        height={42}
+                        width={scrolled ? 140 : 162}
+                        alt=''
+                    />
+                    <div className='flex items-center gap-[40px] font-sansBold'>
+                        <Link href="#">Product</Link>
+                        <Link href="#">Services</Link>
+                        <Link href="#">About</Link>
+                        <Link href="#"><Button variant='outline' size='md'>Log In</Button></Link>
+                    </div>
                 </div>
-            </div>
+            </Wrapper>
             {/* MOBILE NAVBAR */}
             <div className={`lg:hidden w-full flex justify-between px-[20px]`}>
                 <Image
